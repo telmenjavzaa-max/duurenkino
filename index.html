@@ -168,12 +168,12 @@ nav.mob { display: none; }
 .topcard .card { flex: 1; }
 
 /* ---------- Багцын баннер ---------- */
-.promo { margin-top: 40px; border-radius: 20px; padding: 22px clamp(18px, 4vw, 34px); display: flex; align-items: center; gap: 22px; background: linear-gradient(100deg, #3b0f22 0%, #22102e 55%, #2a0c1f 100%); border: 1px solid #22c7f033; position: relative; overflow: hidden; }
+.promo { margin-top: 40px; border-radius: 20px; padding: 22px clamp(18px, 4vw, 34px); display: flex; align-items: center; gap: 22px; background: linear-gradient(100deg, #0b2a44 0%, #141b46 55%, #0d1f3a 100%); border: 1px solid #22c7f033; position: relative; overflow: hidden; }
 .promo::before { content: ""; position: absolute; right: -60px; top: -60px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, #22c7f044, transparent 70%); }
 .promo .pop { flex: 0 0 auto; width: 74px; height: 74px; }
 .promo h3 { margin: 0 0 8px; font-size: clamp(16px, 2vw, 20px); font-weight: 700; display: flex; align-items: center; gap: 8px; }
 .promo h3 svg { width: 20px; height: 20px; fill: #ffc24b; flex: 0 0 auto; }
-.promo ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; color: #d8cfe2; font-size: 13px; }
+.promo ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; color: #cbd6ea; font-size: 13px; }
 .promo li { display: flex; align-items: center; gap: 6px; }
 .promo li::before { content: "✓"; color: var(--red); font-weight: 700; }
 .promo .txt { flex: 1; min-width: 0; position: relative; }
@@ -237,7 +237,7 @@ dialog::backdrop { background: #000c; backdrop-filter: blur(4px); }
 .plan .price s, .promo-list s { color: var(--muted); font-weight: 500; font-size: 12px; margin-right: 6px; }
 .plan small { color: var(--muted); font-size: 12px; }
 .pbadge { display: inline-block; margin-left: 6px; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 99px; background: var(--red); color: #fff; vertical-align: 2px; }
-.soon-box { padding: 12px 14px; border-radius: 12px; background: #22c7f012; border: 1px solid #22c7f044; font-size: 13px; color: #ffd6de; }
+.soon-box { padding: 12px 14px; border-radius: 12px; background: #22c7f012; border: 1px solid #22c7f044; font-size: 13px; color: #cdeffd; }
 
 .auth { padding: 26px; display: grid; gap: 14px; }
 .auth h2 { margin: 0; font-size: 22px; }
@@ -264,7 +264,7 @@ dialog::backdrop { background: #000c; backdrop-filter: blur(4px); }
 #splash .kz-draw path { fill: none; stroke: var(--red); stroke-width: 3.2; stroke-linejoin: round; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; filter: drop-shadow(0 0 6px #22c7f0aa); animation: kzDraw .6s cubic-bezier(.6,0,.3,1) both, kzFade .35s ease .75s forwards; }
 #splash .kz-draw path.b { animation-delay: .22s, .8s; stroke: #ffffffcc; stroke-width: 2.4; }
 #splash .kz-icon { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 6px 22px #22c7f066); animation: kzPop .5s cubic-bezier(.3,1.6,.5,1) .55s both; }
-#splash .kz-glint { position: absolute; left: 50%; top: 46%; width: 70%; aspect-ratio: 1; margin: -35% 0 0 -35%; border-radius: 50%; border: 2px solid #ff6b8a; animation: kzGlint .9s ease-out 1.0s both; pointer-events: none; }
+#splash .kz-glint { position: absolute; left: 50%; top: 46%; width: 70%; aspect-ratio: 1; margin: -35% 0 0 -35%; border-radius: 50%; border: 2px solid #7dd9f6; animation: kzGlint .9s ease-out 1.0s both; pointer-events: none; }
 #splash .kz-word { width: min(230px, 52vw); height: auto; animation: kzRise .5s cubic-bezier(.2,.8,.2,1) .95s both; }
 #splash .kz-tag { font-size: 13px; color: var(--muted); letter-spacing: .02em; animation: kzRise .5s cubic-bezier(.2,.8,.2,1) 1.12s both; }
 #splash .bar2 { position: absolute; bottom: 18%; left: 50%; margin-left: -60px; width: 120px; height: 3px; border-radius: 3px; background: #ffffff14; overflow: hidden; animation: kzFadeIn .4s ease 1.3s both; }
